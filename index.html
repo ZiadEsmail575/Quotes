@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nova+Square&family=Nunito&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section id="quotes" class=" min-vh-100 d-flex justify-content-center align-items-center overflow-y-hidden" >
+    
+  <div class="layer position-absolute top-0 bottom-0 start-0 end-0"></div>
+        
+<div class="container">
+    
+        
+            <div class="content ">
+                <div class="quotes-content size mx-auto d-flex justify-content-center align-items-center flex-column text-white">
+                    <h1 class="pt-2 display-4 animate__animated animate__bounceInDown ">Quotes of the Day</h1>
+                    <div class="quotes-main animate__animated animate__bounceIn  mb-5 position-relative " id="quotes-main">
+                        <span class="fs-4  position-absolute left-icon"><i class="fa-solid fa-quote-left "></i></span> <br> <br> <br>    <span  id="quote_1" class="fs-5" > Click the button below to generate your quote</span> <br> <br> <br>  <span class="fs-4 position-absolute right-icon"><i class="fa-solid fa-quote-right"></i></span>
+                        </div>
+                    <div class="quotes-writer mb-5 mt-5 fs-5" id="quotes-writer">
+                    
+                    </div>
+                    <div class="btn-user d-flex justify-content-center animate__animated animate__bounceInUp ">
+                        <button class="btn btn-info text-white color after mt-5 mb-4 me-5 d-inline-block position-relative" onclick="quotesGenerator()" id="quote-btn">Next Quote</button>
+                        <button id="btn-voices" class="btn btn-info text-white color  mt-5 mb-4 ms-4 d-inline-block d-flex justify-content-center align-items-center ms-3" onclick="txtToVoice()"><span class="d-inline-block"><i class="fa-solid fa-volume-high"></i></span></button>
+                    </div>
+                    </div>
+            </div>
+        
+    
+</div>
+        
+    </section>
+
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
